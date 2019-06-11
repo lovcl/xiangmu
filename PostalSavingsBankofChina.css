@@ -1,0 +1,261 @@
+body,div,img,ul,li,a,dl,dt,dd,span,b,ol,p,h2,h1,h3,h4,h5{padding: 0;margin: 0;}
+img{vertical-align: bottom;}
+li,ol{list-style: none;}
+a{text-decoration: none;}
+.container{}
+.haeder{background-color:#FAFAFA;border-bottom: 1px solid #ccc;}
+.header-content{width: 992px;margin: 0 auto;line-height: 40px;font-size: 14px;}
+.header-content:after{content: " ";display: block;clear: both;}
+.header-left{float: left;}
+.header-left span{}
+.header-left span b{color: #23ac38;font-size: 16px;}
+.header-left span i{font-style: normal;}
+.header-right{float: right;}
+.header-right ul{}
+.header-right ul li{display: inline-block;margin-left: 5px;}
+.header-right ul li a{color:#000;font-size: 12px;}
+.header-right ul li a:hover{text-decoration: underline;}
+/*搜索区*/
+.field-of-search{width: 992px;margin: 0 auto; /*border: 1px solid red;*/}
+.field-of-search:after{content:"";display: block;clear: both;}
+.fos-left{float: left;}
+.fos-left img{}
+.fos-right{float: right;width: 227px;margin-top: 25px;border: 1px solid #ccc;overflow: hidden;}
+.fos-right input{float: left;display:block;width: 185px;height: 26px;padding: 4px 0;border: none;}
+.fos-right a{}
+.fos-right a i{float: right;display: inline-block;width: 38px;height: 34px;overflow: hidden;background: url("images/schbtn.jpg") no-repeat;}
+/*---------------------------------中心广告区--------------------------------------------------------*/
+.CenterBanner{width:992px;margin: 0 auto;position: relative;}
+.CenterBanner>ul{overflow: hidden;}
+.CenterBanner>ul>li{ /*position: relative;*/float: left;width: 110px;text-align: center;background: url("images/menu_default_bg.gif") no-repeat 20px 0;border-bottom: 4px solid #23ac38;padding-bottom: 1px;}
+.CenterBanner>ul>li:hover .ComBoBox-one{display: block;}
+.CenterBanner>ul>li:hover .ComBoBox-two{display: block;}
+.CenterBanner>ul>li:hover .ComBoBox-three{display: block;}
+.CenterBanner>ul>li:hover .ComBoBox-four{display: block;}
+.CenterBanner>ul>li:hover .ComBoBox-five{display: block;}
+.CenterBanner>ul>li:hover .ComBoBox-six{display: block;}
+.CenterBanner>ul>li:hover .ComBoBox-seven{display: block;}
+.CenterBanner>ul>li>a{line-height: 45px;color:#23ac38;display: block;}
+#Coloro{background: url("images/menubg.gif");color: #fff;}
+.CenterBanner>ul>li:hover{background: url("images/menubg.gif") no-repeat 0 -1px;}
+.CenterBanner>ul>li:hover>a{color: #fff;}
+/*---------------------------------------------------------------下拉菜单栏----------------------------------------*/
+.ComBoBox{display: none;position: absolute;width: 100%;left: 0;top: 50px;background-color: #ecebeb;opacity:0.9;z-index: 1000;}
+.ComBoBox:after{content: " ";display: block;clear: both;}
+.ComBoBox ul{float: left;width: 228px;margin: 30px 5px;border-right: 1px dashed #aaa;}
+.ComBoBox ul li{text-align: left;line-height: 40px;}
+.ComBoBox ul li a{padding-left: 12px;display: block;background: url("images/squre.png") no-repeat 0 18px;font-size:10px ;color:#000;}
+.ComBoBox ul li a:hover{text-decoration: underline;}
+.CenterBanner .line{position: absolute;z-index: 1000;width: 100%;height: 4px;background: url("images/nav_line.jpg");top: 45px;}
+.img-banner{position: relative;}
+.img-banner ol {width: 992px;height: 431px;overflow: hidden; /*border: 1px solid red;*/}
+.img-banner ol li{}
+.img-banner ol li a{}
+@keyframes rote { 0%{opacity: 0.6} 100%{opacity: 1} }
+.img-banner .SafetyTips{position: absolute;left: 0;bottom: 0;width: 278px;background:url("images/ebanking_bg.jpg");}
+.img-banner .SafetyTips a{float: right;}
+.img-banner .SafetyTips img{}
+.img-banner ul{position: absolute;bottom: 26px;left: 415px;overflow: hidden; /*border: 1px solid green;*/}
+.img-banner ul li{float: left;}
+.img-banner ul li a{display: block;width: 10px;height: 10px;margin: 0 9px;background: url("images/kvdot.gif") no-repeat;}
+.img-banner ul li a:hover{background: url("images/kvdot.gif") no-repeat -13px 0;}
+#click{display: block;width: 10px;height: 10px;margin: 0 9px;background: url("images/kvdot.gif") no-repeat -13px 0;}
+/*-------------------------------------------------------内容区-----------------------------------------------------*/
+.select-container{width: 992px;margin: 0 auto; /*border: 1px solid yellow;*/}
+.select-container:after{content: " ";display: block;clear: both;}
+.select-container-left{float:left;width: 278px; /*border: 1px solid red;*/}
+.people-bank{}
+.people-bank .pass{border: 1px solid #ccc;border-top: none;}
+.people-bank .pass>a{height: 48px;display: block;line-height: 48px;color: black;font-size: 14px;box-shadow: 1px 1px 3px #ccc;}
+.people-bank .pass>a img{}
+.people-bank .pass>a span{}
+.people-bank .pass h2{line-height: 48px;display: none;font-weight: normal;font-size: 14px;text-align: center; /*border-bottom: 1px solid #ccc;*/}
+.people-bank .pass h2 a{color: black;}
+.people-bank .pass h2 a span{}
+.people-bank .pass h2 a span:hover{color: #23ac3a;text-decoration: underline;}
+.people-bank .pass:hover h2{display: block;}
+/*--------------------------------------------------------邮乐网，积分商城---------------------------------------*/
+.select-container-left dl{width: 278px;margin-top: 20px;overflow: hidden;}
+.youlewang{position: relative;height: 150px;overflow: hidden; /*border: 1px solid red;*/}
+.youlewang dt{}
+.youlewang dt a{display: block;width: 276px;overflow: hidden;}
+.youlewang dt a img{left: 0;top:0;position: absolute;width: 276px;}
+.youlewang div{display: none;}
+.youlewang:hover div{display: block;}
+.youlewang div:nth-of-type(1){position: absolute;top:50%;left: 0;margin-top: -25px;}
+.youlewang div:nth-of-type(1) a{display: block;background: url("images/ad_ctr.png") no-repeat;width: 33px;height: 50px;text-indent: 1000px;overflow: hidden;}
+.youlewang div:nth-of-type(2){position: absolute;top:50%;right: 0;margin-top: -25px;}
+.youlewang div:nth-of-type(2) a{width: 33px;height: 50px;background: url("images/ad_ctr.png") no-repeat 0 -49px;display: block;overflow: hidden;text-indent: 1000px;}
+.youlewang ul{position: absolute;left: 118px;bottom: 10px;}
+.youlewang ul li{float: left;margin-right: 10px;}
+.youlewang ul li a{display: block;width: 16px;height: 16px;background: url("images/dot2.png") no-repeat 0 -15px;}
+#dotto{background: url("images/dot2.png") no-repeat;}
+.kong dd{width: 95px;float: left;margin:10px 0 0 30px;}
+.kong dd a{display: block;font-size: 12px;color: black;background: url("images/grey_arr.jpg") no-repeat 0 5px;padding-left: 20px;}
+.kong dd a:hover{color: #23ac3a;text-decoration: underline;background: url("images/point.jpg") no-repeat 0 4px;}
+.line{width: 278px;height: 10px;background: url("images/leftsideline.gif") no-repeat;margin-top:15px;}
+/*---------------------------------------------------------服务快捷通道-----------------------------------------*/
+.LawHall{width: 278px;}
+.LawHall h2{font-size: 14px;margin-bottom: 5px;}
+.LawHall ul{overflow: hidden;}
+.LawHall ul li{width: 125px;float: left;padding-left: 10px;padding-top: 12px;}
+.LawHall ul li a{display: block;padding-left: 25px;height: 20px;line-height: 20px;color: black;font-size: 12px;}
+.LawHall ul li:nth-of-type(1) a{background:url("images/ser_fast_icon1.jpg") no-repeat;}
+.LawHall ul li a:hover{color: #23ac3a;text-decoration: underline;}
+.LawHall ul li:nth-of-type(1) a:hover{background:url("images/1c.jpg") no-repeat;}
+.LawHall ul li:nth-of-type(2) a{background:url("images/ser_fast_icon3.jpg") no-repeat ;}
+.LawHall ul li:nth-of-type(2) a:hover{background:url("images/3c.jpg") no-repeat;}
+.LawHall ul li:nth-of-type(3) a{background:url("images/ser_fast_icon4.jpg") no-repeat;}
+.LawHall ul li:nth-of-type(3) a:hover{color: #23ac3a;background:url("images/4c.jpg") no-repeat;}
+.LawHall ul li:nth-of-type(4) a{background:url("images/ser_fast_icon5.jpg") no-repeat;}
+.LawHall ul li:nth-of-type(4) a:hover{background:url("images/5c.jpg") no-repeat;}
+.LawHall ul li:nth-of-type(5) a{background:url("images/ser_fast_icon6.jpg") no-repeat;}
+.LawHall ul li:nth-of-type(5) a:hover{background:url("images/6c.jpg") no-repeat;}
+.LawHall ul li:nth-of-type(6) a{background:url("images/ser_fast_icon8.jpg") no-repeat;}
+.LawHall ul li:nth-of-type(6) a:hover{background:url("images/8c.jpg") no-repeat;}
+.LawHall ul li:nth-of-type(7) a{background:url("images/ser_fast_icon9.jpg") no-repeat;}
+.LawHall ul li:nth-of-type(7) a:hover{background:url("images/9c.jpg") no-repeat;}
+.LawHall ul li:nth-of-type(8) a{background:url("images/ser_fast_icon10.jpg") no-repeat;}
+.LawHall ul li:nth-of-type(8) a:hover{background:url("images/10c.jpg") no-repeat;}
+.LawHall ul li:nth-of-type(9) a{background:url("images/ser_fast_icon11.png") no-repeat;}
+.LawHall ul li:nth-of-type(9) a:hover{background:url("images/11c.png") no-repeat;}
+.LawHall ul li:nth-of-type(10) a{background:url("images/ser_fast_icon12.jpg") no-repeat;}
+.LawHall ul li:nth-of-type(10) a:hover{background:url("images/ser_fast_icon12on.jpg") no-repeat;}
+.LawHall ul li:nth-of-type(11) a{background:url("images/ser_fast_icon13.png") no-repeat;}
+.LawHall ul li:nth-of-type(11) a:hover{background:url("images/13c.png") no-repeat;}
+.LawHall ul li:nth-of-type(12) a{background:url("images/ser_fast_icon10.jpg") no-repeat;}
+.LawHall ul li:nth-of-type(12) a:hover{background:url("images/10c.jpg") no-repeat;}
+.LawHall ul li:nth-of-type(13) a{background:url("images/ser_fast_icon6.jpg") no-repeat;}
+.LawHall ul li:nth-of-type(13) a:hover{background:url("images/6c.jpg") no-repeat;}
+.LawHall ul li:nth-of-type(14) a{background:url("images/ser_fast_icon5.jpg") no-repeat;}
+.LawHall ul li:nth-of-type(14) a:hover{background:url("images/5c.jpg") no-repeat;}
+/*---------------------------------------------------------------商户快捷通道------------------------------------------------*/
+.Merchants-landing{width: 278px;}
+.Merchants-landing h2{font-size: 14px;margin-bottom: 10px;}
+.Merchants-landing ul{overflow: hidden;margin-bottom: 8px;}
+.Merchants-landing ul li{float: left;width: 100px;}
+.Merchants-landing ul li a{padding-left: 12px;background: url("images/grey_arr.jpg") no-repeat 0 5px;padding-bottom: 7px;font-size: 12px;color: black;display: block;}
+.Merchants-landing ul li a:hover{color: #23ac3a;text-decoration: underline;background: url("images/point.jpg") no-repeat 0 4px;}
+.Merchants-landing .service{}
+.Merchants-landing .service>img{margin-bottom: 10px;}
+.Merchants-landing .service a{}
+/*------------------------------------------------------内容右侧----------------------------------------------------------*/
+.select-container-right{float: right;}
+.ringt-news{width: 698px;height: 60px;overflow: hidden;background: url("images/new_bg.jpg") no-repeat;position: relative;margin-top: 10px; /*border: 1px solid red;*/}
+.ringt-news ul{height: 250px;float: left;overflow: hidden;margin-top: 5px;position: absolute;left: 0; /*top: -50px;*/}
+.ringt-news ul li{padding-left: 105px;width: 450px;height: 50px}
+.ringt-news ul li a{display: block;color: black;font-size: 14px;line-height: 45px; /*border: 1px solid green;*/}
+.ringt-news ul li a:hover{color: #23ac3a;text-decoration: underline;}
+.ringt-news p{position: absolute;right: 150px;margin-top: 10px;}
+.ringt-news p img{display: block;margin-bottom: 5px;}
+.ringt-news h2{float: right;margin-top: 8px;margin-right: 10px;}
+.ringt-news h2 a{display: block;font-size: 14px;font-weight: normal;color: black;width: 120px;border: 1px solid #bfbfbf;background-color: #f6f6f6;line-height: 40px;text-align: center;}
+.ringt-news h2 a:hover{color: #23ac3a;}
+/*-----------------------------------------------------------右侧主要部分------------------------------------*/
+.right-main{width: 689px;overflow: hidden;float: right;}
+.special-offer{overflow: hidden;}
+.special-offer h5{margin: 30px 0 15px;}
+.special-offer h5 a{color: black;}
+.special-offer h5 a:hover{color: #23ac3a;text-decoration: underline;}
+.special-offer img{float: left;}
+.special-offer ul{float: left;}
+.special-offer ul li{padding-left: 12px;margin-bottom: 6px;}
+.special-offer ul li a{display: block;font-size: 12px;color: black;line-height: 20px;padding-left: 10px;background: url("images/dot.png") no-repeat 0 7px;}
+.special-offer ul li a span{display: inline-block;margin-right: 10px;}
+.special-offer ul li a:hover span{text-decoration: underline;}
+.special-offer ul li a:hover{color: #23ac3a;text-decoration: underline;}
+.line-one{height: 2px;background: url("images/rightsideline.gif") no-repeat;margin: 20px 0 20px;}
+/*-------------------------------------------------------卡片轮播-----------------------------------------------*/
+.highly-recommended{position: relative;width: 689px;height: 192px; /*border: 1px solid orange;*/overflow: hidden;}
+.highly-recommended:after{content: " ";display: block;clear: both;}
+.highly-recommended h5{margin-bottom: 10px;}
+.lunbot{width: 3136px;height: 170px;overflow: hidden; /*border: 1px solid red;*/margin-left: 14px;padding: 0 10px;position: absolute; /*left: -224px;*/}
+.lunbot dl{width: 200px;height: 170px;margin-right: 19px;display: inline-block; /*border: 1px solid green;*/}
+.lunbot dl:hover a{color: #23ac3a;text-decoration: underline;}
+.lunbot dl dt{width: 195px; /*padding-left: 5px;*/}
+.lunbot dl dd a{display: block;color: black; /*line-height: 20px;*/font-size: 12px;margin: 20px 0;text-align: center;}
+.dot-left a{position: absolute;display: block;width: 20px;height: 39px;color: black;left: 0;top:50%;background: url("images/left_arrow.jpg") no-repeat;margin-top: -20px;}
+.dot-right a{position: absolute;display: block;width: 20px;height: 39px;color: black;right: 0;top:50%;background: url("images/right_arrow.jpg") no-repeat;margin-top: -20px;}
+/*----------------------------------------------------------------储蓄新闻---------------------------------------------*/
+.news-center{overflow: hidden;}
+.news-left{float: left;width: 395px;padding-right: 15px;border-right: 1px solid #cccccc;}
+.news-left p{}
+.news-left p a{display: inline-block;font-size: 14px;color: black;font-weight: bold;}
+.news-left p a:hover{color: #23ac3a;text-decoration: underline;}
+.news-left p span{display: inline-block;margin: 0 20px 10px;}
+.small-content{ /*border:1px solid red ;*/}
+.small-content dl{overflow: hidden;}
+.small-content dl dt{float: left;}
+.small-content dl dt img{}
+.left-row{width: 216px;float: right;overflow: hidden; }
+.small-content h5{margin-bottom: 5px;}
+.small-content h5 a{display: block;color: black;font-size: 14px;font-weight: bold;}
+.small-content h5 a:hover{color: #23ac3a;text-decoration: underline;}
+.small-content dl dd{}
+.small-content dl dd a{display: block;font-size: 12px;color: black;line-height: 21px;}
+.small-content dl dd a:hover{color: #23ac3a;text-decoration: underline;}
+.small-content ul {margin-top: 10px;}
+.small-content li{width: 395px;}
+.small-content ul li a{display: block;font-size: 12px;color: black;line-height: 23px;background: url("images/dot.png") no-repeat 0 9px;padding-left: 10px;}
+.small-content ul li a:hover{color: #23ac3a;text-decoration: underline;}
+.small-content ul li a:hover span{color: #23ac3a;text-decoration: underline;}
+.small-content ul li a span{display:inline-block ;margin-right: 10px;}
+#CENTOP{display: none;}
+.news-right{float: right;width:262px ;}
+.news-right h5{}
+.news-right h5 a{display: block;font-size: 14px;font-weight: bold;color: black;margin-bottom: 10px;}
+.news-right h5 a:hover{color: #23ac3a;text-decoration: underline;}
+.news-right img{}
+.news-right ul{margin-top: 10px;}
+.news-right ul li{}
+.news-right ul li a{font-size: 12px;display: block;color: black;line-height: 25px;background: url("images/dot.png") no-repeat 0 10px;padding-left: 10px;}
+.news-right ul li a:hover{color: #23ac3a;text-decoration: underline;}
+.news-right ul li a:hover span{color: #23ac3a;text-decoration: underline}
+.news-right ul li a span{display: inline-block;margin-right: 10px;}
+/*-------------------------------------------------------------金融咨询---------------------------------------*/
+.news-money{overflow: hidden;}
+.news-money ul{}
+.news-money li{display: inline-block;}
+.news-money li:nth-of-type(2){margin-left: 10px;font-size: 12px;color: #cccccc;}
+.news-money li a{font-size: 14px;font-weight: bold;color:black;}
+.news-money li a:hover{color: #23ac3a;text-decoration: underline;}
+.news-money dl{margin-top: 15px;float: left;padding: 0 11px;border-right: 1px solid #ccc;}
+.news-money dl dt a{display: block;width: 90px;height: 56px;}
+.news-money dl:hover a{color: #23ac3a;text-decoration: underline;}
+#one{background: url("images/1.jpg") no-repeat 10px 0;}
+.news-money dl:nth-of-type(1):hover #one{background: url("images/1b.jpg") no-repeat 10px 0;}
+#two{background: url("images/2.jpg") no-repeat 10px 0;}
+.news-money dl:nth-of-type(2):hover #two{background: url("images/2b.jpg") no-repeat 10px 0;}
+#three{background: url("images/3.jpg") no-repeat 10px 0;}
+.news-money dl:nth-of-type(3):hover #three{background: url("images/3b.jpg") no-repeat 10px 0;}
+#four{background: url("images/4.jpg") no-repeat 10px 0;}
+.news-money dl:nth-of-type(4):hover #four{background: url("images/4b.jpg") no-repeat 10px 0;}
+#five{background: url("images/5.jpg") no-repeat 10px 0;}
+.news-money dl:nth-of-type(5):hover #five{background: url("images/5b.jpg") no-repeat 10px 0;}
+#six{background: url("images/6.jpg") no-repeat 10px 0;}
+.news-money dl:nth-of-type(6):hover #six{background: url("images/6b.jpg") no-repeat 10px 0;}
+.news-money dd{}
+.news-money dd a{margin-top: 10px;display: block;font-size: 12px;color:black;text-align: center;}
+/*----------------------------------------------------------------------理财小秘书------------------------------------------------*/
+.mishu-licai{width: 992px;margin: 20px auto;overflow: hidden;position: relative;}
+.mishu-licai img{float: left;}
+.mishu-licai img:nth-of-type(1){margin-right: 15px}
+.mishu-licai img:nth-of-type(2){margin-right: 15px;}
+.mishu-licai select{border: 1px solid #c2c2c2;width: 136px;height: 22px;;color:#a3a3a3;position: absolute;left: 20px;top: 70px;}
+/*----------------------------------------------------------------脚部-------------------------------------------------------*/
+.footer{width: 100%;background: #E3E3E3;overflow: hidden;margin-top: 100px;}
+.foot-content{width: 992px;margin: 0 auto;overflow: hidden; /*border: 1px solid red;*/}
+.foot-content>ul{float: left;}
+.foot-content>ul:nth-of-type(1){}
+.foot-content>ul:nth-of-type(1) li{width: 313px;height: 83px;background: url("images/footer.png") no-repeat;margin-top: 50px;}
+.foot-content>ul:nth-of-type(2){ /*border: 1px solid red;*/overflow: hidden;margin-top: 30px;margin-left: 20px;}
+.foot-content>ul:nth-of-type(2) li{width: 203px;height: 125px;background: url("images/code_bank.png");}
+.footer-right{float: right;width: 436px; /*border: 1px solid green;*/margin-top: 50px;overflow: hidden;}
+.footer-right ul{}
+.footer-right ul li{display: inline-block;margin-left: 20px;color: #aaa;}
+.footer-right ul li a{color: black;font-size: 14px;}
+.footer-right ul li a:hover{text-decoration: underline;}
+.footer-right p{float: left;font-size: 12px;width: 300px;margin-left: 20px;margin-top: 15px; /*border: 1px solid red;*/}
+.footer-right>a{float: right;display: block;width: 100px;height: 37px;background: url("images/verify.png") no-repeat;margin-top: 15px;background-size: 100%;}
+
+
